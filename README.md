@@ -97,7 +97,7 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=aEboli&theme=tokyonight&hide_border=true" alt="aEboli GitHub contribution streak" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aEboli&theme=tokyonight" alt="aEboli GitHub statistics" />
 
 </div>
 

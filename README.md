@@ -1,65 +1,131 @@
 <div align="center">
-  <br />
-  <img src="https://avatars.githubusercontent.com/u/248292881?v=4" width="88" alt="aEboli" />
-  <h1>aEboli</h1>
-  <p><strong>Building quiet tools for bold ideas.</strong></p>
-  <p>为大胆的想法，做安静而有力量的工具。</p>
-  <p><sub>AI CREATIVE TOOLING &nbsp;&middot;&nbsp; IMAGE WORKFLOWS &nbsp;&middot;&nbsp; LOCAL-FIRST APPS</sub></p>
-  <br />
-  <p>
-    <a href="https://github.com/aEboli/GPT-Image2-Studio">Studio</a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://github.com/aEboli/image2-codex-skill">Codex Skill</a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://github.com/aEboli/Picture-creation">Picture Creation</a>
-  </p>
-  <br />
+
+<a href="https://github.com/aEboli">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=235&color=0:7F5AF0,50:2CB67D,100:00C2FF&text=aEboli&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=AI%20tools%20for%20creative%20work%20and%20everyday%20productivity&descAlignY=61&descSize=17" alt="aEboli — AI tools for creative work and everyday productivity" />
+</a>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=21&duration=2800&pause=850&color=7F5AF0&center=true&vCenter=true&width=760&lines=Building+useful+AI-powered+tools;Making+creative+workflows+more+fluid;Turning+small+ideas+into+working+products" alt="动态介绍" />
+
+<p>
+  <a href="https://github.com/aEboli/GPT-Image2-Studio">
+    <img src="https://img.shields.io/badge/FEATURED-GPT--Image2--Studio-7F5AF0?style=for-the-badge&logo=github&logoColor=white" alt="GPT-Image2-Studio" />
+  </a>
+  <a href="https://github.com/aEboli/ChatSheet">
+    <img src="https://img.shields.io/badge/FEATURED-ChatSheet-2CB67D?style=for-the-badge&logo=github&logoColor=white" alt="ChatSheet" />
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/aEboli?tab=followers">
+    <img src="https://img.shields.io/github/followers/aEboli?label=Followers&style=flat-square&color=7F5AF0" alt="GitHub followers" />
+  </a>
+  <a href="https://github.com/aEboli">
+    <img src="https://komarev.com/ghpvc/?username=aEboli&style=flat-square&color=2CB67D&label=Profile%20Views" alt="Profile views" />
+  </a>
+</p>
+
 </div>
 
----
+## 你好，我是 aEboli 👋
 
-## Selected work
+我喜欢把 AI、创意工具和实际工作流结合起来，做一些真正可以使用的产品。
 
-### [GPT-Image2-Studio](https://github.com/aEboli/GPT-Image2-Studio)
+目前主页主要展示两个方向：AI 图像创作，以及 Excel 中更自然的 AI 协作。
 
-本地优先的 AI 图像生成与视觉创作工作台，把生成、编辑、套图、插图与素材管理放进一个浏览器界面。
+## 现在主要在做
 
-<sub>JavaScript &nbsp;&middot;&nbsp; 12 stars &nbsp;&middot;&nbsp; <a href="https://gpt-image2-studio-gules.vercel.app/">Live preview</a></sub>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<br />
+<h3 align="center">🎨 GPT-Image2-Studio</h3>
 
-### [image2-codex-skill](https://github.com/aEboli/image2-codex-skill)
+<p align="center">
+  本地优先的 AI 图像生成与视觉生产工作台，覆盖提示词生图、参考图分析、图像编辑、电商组图、肖像、文章插图和 PPT 工作流。
+</p>
 
-用于扩展 Codex `image2` 工作流的 skill，支持自定义图像比例与分辨率。
+<p align="center">
+  <a href="https://github.com/aEboli/GPT-Image2-Studio">
+    <img width="480" src="https://opengraph.githubassets.com/1/aEboli/GPT-Image2-Studio" alt="GPT-Image2-Studio GitHub repository preview" />
+  </a>
+</p>
 
-<sub>Python &nbsp;&middot;&nbsp; 2 stars</sub>
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/aEboli/GPT-Image2-Studio?style=flat-square&color=F7DF1E&label=JavaScript" alt="Top language: JavaScript" />
+  <img src="https://img.shields.io/github/last-commit/aEboli/GPT-Image2-Studio?style=flat-square&color=7F5AF0&label=Updated" alt="GPT-Image2-Studio last commit" />
+</p>
 
-<br />
+</td>
+<td width="50%" valign="top">
 
-### [Picture-creation](https://github.com/aEboli/Picture-creation)
+<h3 align="center">📊 ChatSheet</h3>
 
-面向电商团队的 Windows 本地 AI 生图工作台，支持多图工作流与安装包交付。
+<p align="center">
+  运行在 Windows 桌面版 Microsoft Excel 中的本地对话式 AI 侧边栏：先理解工作簿和当前选区，再在确认后执行受限的表格操作。
+</p>
 
-<sub>TypeScript &nbsp;&middot;&nbsp; 1 star</sub>
+<p align="center">
+  <a href="https://github.com/aEboli/ChatSheet">
+    <img width="480" src="https://opengraph.githubassets.com/1/aEboli/ChatSheet" alt="ChatSheet GitHub repository preview" />
+  </a>
+</p>
 
-<br />
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-.NET%20Framework%204.8-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C# and .NET Framework 4.8" />
+  <img src="https://img.shields.io/github/last-commit/aEboli/ChatSheet?style=flat-square&color=2CB67D&label=Updated" alt="ChatSheet last commit" />
+</p>
 
-### [weather](https://github.com/aEboli/weather)
-
-基于 Next.js 的天气全景应用。
-
-<sub>TypeScript &nbsp;&middot;&nbsp; <a href="https://weather-gamma-rouge.vercel.app">Live preview</a></sub>
-
-<br />
-
-### [image-compress](https://github.com/aEboli/image-compress)
-
-基于 Python、CustomTkinter 与 Pillow 的桌面图片压缩工具。
-
-<sub>Python</sub>
-
----
+</td>
+</tr>
+</table>
 
 <div align="center">
-  <sub>Less noise. More making.</sub>
+
+<a href="https://github.com/aEboli/GPT-Image2-Studio"><strong>探索 GPT-Image2-Studio →</strong></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/aEboli/ChatSheet"><strong>探索 ChatSheet →</strong></a>
+
+</div>
+
+## GitHub Activity
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aEboli&theme=tokyonight" alt="aEboli GitHub activity summary" />
+
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=aEboli&theme=tokyonight&hide_border=true" alt="aEboli GitHub contribution streak" />
+
+</div>
+
+## 技术方向
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=js,nodejs,electron,cs,dotnet,html,css,git,github" alt="JavaScript, Node.js, Electron, C#, .NET, HTML, CSS, Git and GitHub" />
+
+</div>
+
+<br />
+
+<div align="center">
+
+<a href="https://github.com/aEboli">
+  <img src="https://img.shields.io/badge/GitHub-aEboli-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub: aEboli" />
+</a>
+
+<br />
+<br />
+
+<em>Build useful things. Keep experimenting. Ship what helps.</em>
+
+</div>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2FF,50:2CB67D,100:7F5AF0&height=100&section=footer" alt="页脚渐变波浪" />
+
 </div>

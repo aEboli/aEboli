@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">aEboli · 鲸鱼娘骑自行车</title>
+  <desc id="description">蓝发鲸鱼娘穿着鲸鱼帽衫，沿海岸骑着薄荷色自行车。双腿交替踩踏，车轮转动，尾鳍和头发随风轻摆。支持深浅色主题和减少动态效果设置。</desc>
+  <defs>
+    <linearGradient id="sky" x2="0.85" y2="1">
+      <stop class="sky-top" stop-color="#f2f9fc"/>
+      <stop class="sky-bottom" offset="1" stop-color="#e3f1f5"/>
+    </linearGradient>
+    <linearGradient id="hood" x1="210" y1="35" x2="320" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#80cadd"/><stop offset="1" stop-color="#438aa9"/>
+    </linearGradient>
+    <linearGradient id="sweater" x1="210" y1="155" x2="283" y2="234" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#83c9d8"/><stop offset="1" stop-color="#5299b4"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="230" y1="85" x2="319" y2="166" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#315e83"/><stop offset="1" stop-color="#24435e"/>
+    </linearGradient>
+    <linearGradient id="tyre" x2="0" y2="1">
+      <stop stop-color="#24485d"/><stop offset="1" stop-color="#15384b"/>
+    </linearGradient>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".6" fill="#46758d" opacity=".08"/>
+    </pattern>
+    <clipPath id="card"><rect x="1" y="1" width="1098" height="438" rx="26"/></clipPath>
+    <g id="spokes" stroke="#85a9ba" stroke-width="1.8">
+      <path d="M-65 0H65 M0-65V65 M-46-46L46 46 M-46 46L46-46 M-60-25L60 25 M-25-60L25 60 M-60 25L60-25 M-25 60L25-60"/>
+      <path d="M-17-62L-14-51" stroke="#f1c47e" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g id="shoe" stroke="#244b63" stroke-width="2.6" stroke-linejoin="round">
+      <path d="M-11-11L8-12L13-3L28 2Q32 4 30 10H-13Q-16 5-11-11Z" fill="#fff7e7"/>
+      <path d="M-13 7H30" stroke="#6299b1"/>
+      <path d="M3-7L9-6M6-3L12-2" stroke="#87b6c8" stroke-width="2"/>
+    </g>
+  </defs>
+  <style>
+    .heading { fill: #183e56; }
+    .subtitle { fill: #517586; }
+    .sea-back { fill: #d3e9ef; }
+    .sea-front { fill: #c1e0e6; }
+    .road { fill: #f6f8f1; }
+    .road-line { stroke: #9dc3c8; }
+    .cloud { fill: #fff; opacity: .8; }
+    .sun { fill: #f5d6a5; }
+    .border { stroke: #d6e9ed; }
+    .wheel { animation: spin 1.35s linear infinite; }
+    .crank { animation: spin 1.8s linear infinite; }
+    .near-leg { animation: near-leg 1.8s linear infinite; }
+    .far-leg { animation: far-leg 1.8s linear infinite; }
+    .near-shoe { animation: near-shoe 1.8s linear infinite; }
+    .far-shoe { animation: far-shoe 1.8s linear infinite; }
+    .tail { transform-origin: 218px 191px; animation: tail 2.7s ease-in-out infinite; }
+    .hair-tip { transform-origin: 249px 121px; animation: hair 2.7s ease-in-out infinite; }
+    .fin { transform-origin: 236px 94px; animation: fin 2.7s ease-in-out infinite; }
+    .blink { transform-origin: 308px 100px; animation: blink 5.4s linear infinite; }
+    .bubble { animation: float 5.4s ease-in-out infinite; }
+    .bubble-late { animation-delay: -2.7s; }
+    .dash { animation: road 1.8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes tail { 0%,100% { transform: rotate(-5deg); } 50% { transform: rotate(7deg); } }
+    @keyframes hair { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(6deg); } }
+    @keyframes fin { 0%,100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg); } }
+    @keyframes blink { 0%,42%,46%,100% { transform: scaleY(1); } 44% { transform: scaleY(.08); } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes road { to { transform: translateX(-72px); } }
+    @keyframes near-leg { 0% { d: path("M224 231 L288.82 259.96 L277.00 332.00"); } 3.125% { d: path("M224 231 L286.06 265.49 L276.42 337.85"); } 6.25% { d: path("M224 231 L282.71 270.92 L274.72 343.48"); } 9.375% { d: path("M224 231 L278.92 276.00 L271.94 348.67"); } 12.5% { d: path("M224 231 L274.88 280.52 L268.21 353.21"); } 15.625% { d: path("M224 231 L270.90 284.30 L263.67 356.94"); } 18.75% { d: path("M224 231 L267.32 287.25 L258.48 359.72"); } 21.875% { d: path("M224 231 L264.45 289.35 L252.85 361.42"); } 25% { d: path("M224 231 L262.49 290.66 L247.00 362.00"); } 28.125% { d: path("M224 231 L261.47 291.31 L241.15 361.42"); } 31.25% { d: path("M224 231 L261.29 291.42 L235.52 359.72"); } 34.375% { d: path("M224 231 L261.82 291.09 L230.33 356.94"); } 37.5% { d: path("M224 231 L262.94 290.37 L225.79 353.21"); } 40.625% { d: path("M224 231 L264.53 289.30 L222.06 348.67"); } 43.75% { d: path("M224 231 L266.54 287.84 L219.28 343.48"); } 46.875% { d: path("M224 231 L268.93 285.97 L217.58 337.85"); } 50% { d: path("M224 231 L271.67 283.62 L217.00 332.00"); } 53.125% { d: path("M224 231 L274.70 280.70 L217.58 326.15"); } 56.25% { d: path("M224 231 L277.98 277.12 L219.28 320.52"); } 59.375% { d: path("M224 231 L281.39 272.80 L222.06 315.33"); } 62.5% { d: path("M224 231 L284.75 267.75 L225.79 310.79"); } 65.625% { d: path("M224 231 L287.83 262.08 L230.33 307.06"); } 68.75% { d: path("M224 231 L290.40 256.15 L235.52 304.28"); } 71.875% { d: path("M224 231 L292.28 250.47 L241.15 302.58"); } 75% { d: path("M224 231 L293.46 245.70 L247.00 302.00"); } 78.125% { d: path("M224 231 L294.09 242.34 L252.85 302.58"); } 81.25% { d: path("M224 231 L294.33 240.70 L258.48 304.28"); } 84.375% { d: path("M224 231 L294.32 240.80 L263.67 307.06"); } 87.5% { d: path("M224 231 L294.06 242.52 L268.21 310.79"); } 90.625% { d: path("M224 231 L293.49 245.58 L271.94 315.33"); } 93.75% { d: path("M224 231 L292.49 249.72 L274.72 320.52"); } 96.875% { d: path("M224 231 L290.96 254.61 L276.42 326.15"); } 100% { d: path("M224 231 L288.82 259.96 L277.00 332.00"); } }
+    @keyframes near-shoe { 0% { transform: translate(277.00px, 332.00px) rotate(-8deg); } 3.125% { transform: translate(276.42px, 337.85px) rotate(-8deg); } 6.25% { transform: translate(274.72px, 343.48px) rotate(-8deg); } 9.375% { transform: translate(271.94px, 348.67px) rotate(-8deg); } 12.5% { transform: translate(268.21px, 353.21px) rotate(-8deg); } 15.625% { transform: translate(263.67px, 356.94px) rotate(-8deg); } 18.75% { transform: translate(258.48px, 359.72px) rotate(-8deg); } 21.875% { transform: translate(252.85px, 361.42px) rotate(-8deg); } 25% { transform: translate(247.00px, 362.00px) rotate(-8deg); } 28.125% { transform: translate(241.15px, 361.42px) rotate(-8deg); } 31.25% { transform: translate(235.52px, 359.72px) rotate(-8deg); } 34.375% { transform: translate(230.33px, 356.94px) rotate(-8deg); } 37.5% { transform: translate(225.79px, 353.21px) rotate(-8deg); } 40.625% { transform: translate(222.06px, 348.67px) rotate(-8deg); } 43.75% { transform: translate(219.28px, 343.48px) rotate(-8deg); } 46.875% { transform: translate(217.58px, 337.85px) rotate(-8deg); } 50% { transform: translate(217.00px, 332.00px) rotate(-8deg); } 53.125% { transform: translate(217.58px, 326.15px) rotate(-8deg); } 56.25% { transform: translate(219.28px, 320.52px) rotate(-8deg); } 59.375% { transform: translate(222.06px, 315.33px) rotate(-8deg); } 62.5% { transform: translate(225.79px, 310.79px) rotate(-8deg); } 65.625% { transform: translate(230.33px, 307.06px) rotate(-8deg); } 68.75% { transform: translate(235.52px, 304.28px) rotate(-8deg); } 71.875% { transform: translate(241.15px, 302.58px) rotate(-8deg); } 75% { transform: translate(247.00px, 302.00px) rotate(-8deg); } 78.125% { transform: translate(252.85px, 302.58px) rotate(-8deg); } 81.25% { transform: translate(258.48px, 304.28px) rotate(-8deg); } 84.375% { transform: translate(263.67px, 307.06px) rotate(-8deg); } 87.5% { transform: translate(268.21px, 310.79px) rotate(-8deg); } 90.625% { transform: translate(271.94px, 315.33px) rotate(-8deg); } 93.75% { transform: translate(274.72px, 320.52px) rotate(-8deg); } 96.875% { transform: translate(276.42px, 326.15px) rotate(-8deg); } 100% { transform: translate(277.00px, 332.00px) rotate(-8deg); } }
+    @keyframes far-leg { 0% { d: path("M224 231 L271.67 283.62 L217.00 332.00"); } 3.125% { d: path("M224 231 L274.70 280.70 L217.58 326.15"); } 6.25% { d: path("M224 231 L277.98 277.12 L219.28 320.52"); } 9.375% { d: path("M224 231 L281.39 272.80 L222.06 315.33"); } 12.5% { d: path("M224 231 L284.75 267.75 L225.79 310.79"); } 15.625% { d: path("M224 231 L287.83 262.08 L230.33 307.06"); } 18.75% { d: path("M224 231 L290.40 256.15 L235.52 304.28"); } 21.875% { d: path("M224 231 L292.28 250.47 L241.15 302.58"); } 25% { d: path("M224 231 L293.46 245.70 L247.00 302.00"); } 28.125% { d: path("M224 231 L294.09 242.34 L252.85 302.58"); } 31.25% { d: path("M224 231 L294.33 240.70 L258.48 304.28"); } 34.375% { d: path("M224 231 L294.32 240.80 L263.67 307.06"); } 37.5% { d: path("M224 231 L294.06 242.52 L268.21 310.79"); } 40.625% { d: path("M224 231 L293.49 245.58 L271.94 315.33"); } 43.75% { d: path("M224 231 L292.49 249.72 L274.72 320.52"); } 46.875% { d: path("M224 231 L290.96 254.61 L276.42 326.15"); } 50% { d: path("M224 231 L288.82 259.96 L277.00 332.00"); } 53.125% { d: path("M224 231 L286.06 265.49 L276.42 337.85"); } 56.25% { d: path("M224 231 L282.71 270.92 L274.72 343.48"); } 59.375% { d: path("M224 231 L278.92 276.00 L271.94 348.67"); } 62.5% { d: path("M224 231 L274.88 280.52 L268.21 353.21"); } 65.625% { d: path("M224 231 L270.90 284.30 L263.67 356.94"); } 68.75% { d: path("M224 231 L267.32 287.25 L258.48 359.72"); } 71.875% { d: path("M224 231 L264.45 289.35 L252.85 361.42"); } 75% { d: path("M224 231 L262.49 290.66 L247.00 362.00"); } 78.125% { d: path("M224 231 L261.47 291.31 L241.15 361.42"); } 81.25% { d: path("M224 231 L261.29 291.42 L235.52 359.72"); } 84.375% { d: path("M224 231 L261.82 291.09 L230.33 356.94"); } 87.5% { d: path("M224 231 L262.94 290.37 L225.79 353.21"); } 90.625% { d: path("M224 231 L264.53 289.30 L222.06 348.67"); } 93.75% { d: path("M224 231 L266.54 287.84 L219.28 343.48"); } 96.875% { d: path("M224 231 L268.93 285.97 L217.58 337.85"); } 100% { d: path("M224 231 L271.67 283.62 L217.00 332.00"); } }
+    @keyframes far-shoe { 0% { transform: translate(217.00px, 332.00px) rotate(-8deg); } 3.125% { transform: translate(217.58px, 326.15px) rotate(-8deg); } 6.25% { transform: translate(219.28px, 320.52px) rotate(-8deg); } 9.375% { transform: translate(222.06px, 315.33px) rotate(-8deg); } 12.5% { transform: translate(225.79px, 310.79px) rotate(-8deg); } 15.625% { transform: translate(230.33px, 307.06px) rotate(-8deg); } 18.75% { transform: translate(235.52px, 304.28px) rotate(-8deg); } 21.875% { transform: translate(241.15px, 302.58px) rotate(-8deg); } 25% { transform: translate(247.00px, 302.00px) rotate(-8deg); } 28.125% { transform: translate(252.85px, 302.58px) rotate(-8deg); } 31.25% { transform: translate(258.48px, 304.28px) rotate(-8deg); } 34.375% { transform: translate(263.67px, 307.06px) rotate(-8deg); } 37.5% { transform: translate(268.21px, 310.79px) rotate(-8deg); } 40.625% { transform: translate(271.94px, 315.33px) rotate(-8deg); } 43.75% { transform: translate(274.72px, 320.52px) rotate(-8deg); } 46.875% { transform: translate(276.42px, 326.15px) rotate(-8deg); } 50% { transform: translate(277.00px, 332.00px) rotate(-8deg); } 53.125% { transform: translate(276.42px, 337.85px) rotate(-8deg); } 56.25% { transform: translate(274.72px, 343.48px) rotate(-8deg); } 59.375% { transform: translate(271.94px, 348.67px) rotate(-8deg); } 62.5% { transform: translate(268.21px, 353.21px) rotate(-8deg); } 65.625% { transform: translate(263.67px, 356.94px) rotate(-8deg); } 68.75% { transform: translate(258.48px, 359.72px) rotate(-8deg); } 71.875% { transform: translate(252.85px, 361.42px) rotate(-8deg); } 75% { transform: translate(247.00px, 362.00px) rotate(-8deg); } 78.125% { transform: translate(241.15px, 361.42px) rotate(-8deg); } 81.25% { transform: translate(235.52px, 359.72px) rotate(-8deg); } 84.375% { transform: translate(230.33px, 356.94px) rotate(-8deg); } 87.5% { transform: translate(225.79px, 353.21px) rotate(-8deg); } 90.625% { transform: translate(222.06px, 348.67px) rotate(-8deg); } 93.75% { transform: translate(219.28px, 343.48px) rotate(-8deg); } 96.875% { transform: translate(217.58px, 337.85px) rotate(-8deg); } 100% { transform: translate(217.00px, 332.00px) rotate(-8deg); } }
+    @media (prefers-color-scheme: dark) {
+      .sky-top { stop-color: #152c3d; }
+      .sky-bottom { stop-color: #1c3c4b; }
+      .heading { fill: #e4f5fa; }
+      .subtitle { fill: #9cbfcb; }
+      .sea-back { fill: #254b59; }
+      .sea-front { fill: #2c5a64; }
+      .road { fill: #25434b; }
+      .road-line { stroke: #507783; }
+      .cloud { fill: #7196a8; opacity: .14; }
+      .sun { fill: #a7c5cc; }
+      .border { stroke: #2e4f5e; }
+    }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1100" height="440" fill="url(#sky)"/>
+    <rect width="1100" height="440" fill="url(#grain)"/>
+    <circle class="sun" cx="934" cy="96" r="43"/>
+    <path class="cloud" d="M570 101Q561 80 583 76Q590 48 614 58Q628 58 631 75Q656 69 662 88Q679 87 681 101Z"/>
+    <path class="cloud" d="M976 170Q974 154 989 151Q993 133 1008 141Q1019 141 1022 154Q1037 152 1043 170Z"/>
+    <path class="sea-back" d="M0 295Q145 270 302 303T600 301T878 274T1100 289V440H0Z"/>
+    <path class="sea-front" d="M0 337Q178 303 370 330T727 326T1100 319V440H0Z"/>
+    <path d="M0 360Q195 338 393 358T753 353T1100 351" stroke="#fff" stroke-opacity=".24" stroke-width="2"/>
+    <path class="road" d="M0 397Q240 394 530 399T1100 397V440H0Z"/>
+    <path class="road-line" d="M0 400H1100" stroke-opacity=".45"/>
+    <g class="dash road-line" stroke-width="3" stroke-linecap="round" opacity=".45">
+      <path d="M-60 424H-30M12 424H42M84 424H114M156 424H186M228 424H258M300 424H330M372 424H402M444 424H474M516 424H546M588 424H618M660 424H690M732 424H762M804 424H834M876 424H906M948 424H978M1020 424H1050M1092 424H1122M1164 424H1194"/>
+    </g>
+    <text class="heading" x="69" y="188" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="78" font-weight="750" letter-spacing="-4">aEboli<tspan fill="#5fa7b4">.</tspan></text>
+    <text class="subtitle" x="74" y="229" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif" font-size="18" letter-spacing="1">AI 图像 · 办公自动化 · 桌面工具</text>
+    <path d="M76 260H118" stroke="#6baab7" stroke-width="4" stroke-linecap="round"/>
+    <g fill="none" stroke="#7eb9c5" stroke-width="2" opacity=".6">
+      <circle class="bubble" cx="480" cy="150" r="6"/>
+      <circle class="bubble bubble-late" cx="1000" cy="254" r="9"/>
+      <circle class="bubble" cx="1040" cy="223" r="4"/>
+    </g>
+    <g transform="translate(506 3) scale(.96)">
+      <ellipse cx="271" cy="414" rx="222" ry="10" fill="#234b59" opacity=".13"/>
+      <!-- 轮辐与曲柄分别围绕自己的轴心旋转。 -->
+      <g transform="translate(115 338)">
+        <circle r="75" fill="url(#tyre)"/><circle r="65.5" fill="#e8f3ef"/>
+        <circle r="65.5" stroke="#f8ebcf" stroke-width="4"/>
+        <g class="wheel"><use href="#spokes"/></g>
+        <circle r="6" fill="#375e70" stroke="#d3e7e5" stroke-width="3"/>
+      </g>
+      <g transform="translate(420 338)">
+        <circle r="75" fill="url(#tyre)"/><circle r="65.5" fill="#e8f3ef"/>
+        <circle r="65.5" stroke="#f8ebcf" stroke-width="4"/>
+        <g class="wheel"><use href="#spokes"/></g>
+        <circle r="6" fill="#375e70" stroke="#d3e7e5" stroke-width="3"/>
+      </g>
+      <path d="M46 307A76 76 0 0 1 181 296M351 302A76 76 0 0 1 487 305" stroke="#649a9e" stroke-width="6" stroke-linecap="round"/>
+      <path d="M68 255H160L180 284M78 257L115 338" stroke="#739eaa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <g stroke-linecap="round" stroke-linejoin="round">
+        <path class="far-leg" d="M224 231 L271.67 283.62 L217.00 332.00" stroke="#26465e" stroke-width="29"/>
+        <path class="far-leg" d="M224 231 L271.67 283.62 L217.00 332.00" stroke="#52738f" stroke-width="23"/>
+        <g class="far-shoe" transform="translate(217.0 332.0) rotate(-8)"><use href="#shoe"/></g>
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round">
+        <path d="M115 338L218 246L247 332L115 338M247 332L384 238M218 246Q274 303 384 238" stroke="#316371" stroke-width="13"/>
+        <path d="M115 338L218 246L247 332L115 338M247 332L384 238M218 246Q274 303 384 238" stroke="#8ac7bf" stroke-width="8"/>
+        <path d="M221 253L213 223" stroke="#658290" stroke-width="7"/>
+        <path d="M384 238L420 338" stroke="#316371" stroke-width="13"/>
+        <path d="M384 238L420 338" stroke="#8ac7bf" stroke-width="8"/>
+        <path d="M384 239L370 198Q368 191 378 190L402 190" stroke="#405f70" stroke-width="7"/>
+        <path d="M395 190H414" stroke="#b58068" stroke-width="10"/>
+        <path d="M398 196Q430 225 389 266" stroke="#53727c" stroke-width="2"/>
+        <path d="M198 221Q218 215 235 222L230 229H201Z" fill="#b58068" stroke="#3d5665" stroke-width="3"/>
+      </g>
+      <path d="M116 326L244 311A22 22 0 1 1 244 353L116 348A11 11 0 0 1 116 326Z" fill="#b6d8d3" stroke="#5e969b" stroke-width="3"/>
+      <circle cx="247" cy="332" r="20" fill="#7da6a8" stroke="#d5e6de" stroke-width="4"/>
+      <g transform="translate(247 332)">
+        <g class="crank"><path d="M-30 0H30" stroke="#3c5d6b" stroke-width="6" stroke-linecap="round"/></g>
+        <circle r="5" fill="#eef4e7"/>
+      </g>
+      <!-- 膝盖由脚踏位置计算，双脚始终跟随同一个曲柄。 -->
+      <g stroke-linecap="round" stroke-linejoin="round">
+        <path class="near-leg" d="M224 231 L288.82 259.96 L277.00 332.00" stroke="#294d68" stroke-width="30"/>
+        <path class="near-leg" d="M224 231 L288.82 259.96 L277.00 332.00" stroke="#7b9bb8" stroke-width="24"/>
+        <g class="near-shoe" transform="translate(277.0 332.0) rotate(-8)"><use href="#shoe"/></g>
+      </g>
+      <g class="tail" stroke="#356c89" stroke-width="3" stroke-linejoin="round">
+        <path d="M222 194Q190 187 168 174Q147 163 138 171Q147 195 186 208L215 218Z" fill="#67adc4"/>
+        <path d="M170 180Q163 149 133 148Q134 165 145 180Q123 173 108 181Q126 204 149 199Q165 195 170 180Z" fill="#83c9da"/>
+        <path d="M148 179Q156 184 158 190" stroke="#c3e7e8" stroke-width="2"/>
+      </g>
+      <path class="hair-tip" d="M257 100Q234 116 229 140Q218 156 184 156Q205 181 233 166Q230 178 217 185Q252 186 270 155L283 115Z" fill="url(#hair)" stroke="#24465f" stroke-width="3"/>
+      <path d="M258 139Q237 150 224 178L207 219Q227 242 263 234L290 192L304 157Z" fill="url(#sweater)" stroke="#356c89" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M266 169Q251 184 241 216Q250 224 266 224L288 187Z" fill="#d5ecea"/>
+      <path d="M210 216Q236 235 265 226L264 235Q230 246 205 226Z" fill="#47839e" stroke="#356c89" stroke-width="2"/>
+      <path d="M232 196L245 200M231 201L242 205" stroke="#4c8da6" stroke-width="2" stroke-linecap="round"/>
+      <path d="M279 140L279 156Q286 164 295 155L298 135" fill="#f3c9ae" stroke="#556e7a" stroke-width="2.5"/>
+      <path d="M291 148Q301 149 311 164L332 187L377 188L380 204L324 207Q317 206 311 198L280 171" fill="#7dbfd2" stroke="#356c89" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M373 186L383 188L384 205L375 206Z" fill="#d6ebdf" stroke="#356c89" stroke-width="2.5"/>
+      <path d="M383 190Q393 186 399 191L405 193Q410 199 403 203L385 203Z" fill="#f6d4ba" stroke="#6d7880" stroke-width="2.5"/>
+      <path d="M397 192L398 198M402 194L402 198" stroke="#cf9c87" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M281 151L273 175" stroke="#def0e8" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="273" cy="176" r="3" fill="#f5d29d"/>
+      <!-- 鲸鱼帽衫：圆头、侧鳍、尾鳍和喷水图案。 -->
+      <path d="M236 112Q217 98 225 67Q231 36 260 28Q297 18 324 46Q339 61 337 89L326 116L270 147Q248 138 236 112Z" fill="url(#hood)" stroke="#356c89" stroke-width="3.5"/>
+      <path d="M238 65Q250 36 278 37" stroke="#bce4e8" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+      <path d="M261 31Q252 22 257 17Q265 17 271 29M274 28Q276 14 283 17Q286 23 279 30" fill="#a7d9e4" stroke="#4387a4" stroke-width="2.5" stroke-linejoin="round"/>
+      <path class="fin" d="M238 91Q216 89 212 108Q226 119 244 107" fill="#6aafc7" stroke="#356c89" stroke-width="3"/>
+      <circle cx="248" cy="70" r="4" fill="#224d65"/><circle cx="249" cy="69" r="1.2" fill="#ecf7f7"/>
+      <path d="M245 80Q250 82 254 79" stroke="#43839d" stroke-width="2" stroke-linecap="round"/>
+      <path d="M266 65Q294 53 317 71Q337 84 330 113Q323 136 299 143Q274 144 261 125Q249 106 254 87Q257 72 266 65Z" fill="#e9f3e9" stroke="#477a91" stroke-width="3"/>
+      <path d="M272 75Q294 65 313 80Q327 91 324 111Q323 129 305 136Q285 141 273 124Q260 106 265 89Z" fill="#f8d9bf" stroke="#526877" stroke-width="2"/>
+      <path d="M265 75Q281 60 302 68Q324 72 328 94Q313 93 301 83Q300 94 290 101Q290 87 283 84Q276 103 267 113Q257 92 265 75Z" fill="url(#hair)"/>
+      <path d="M271 77Q278 73 285 75M308 76Q317 81 320 87" stroke="#608ca7" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M270 104Q260 102 261 111Q263 119 272 119" fill="#f8d9bf" stroke="#526877" stroke-width="2"/>
+      <path d="M266 109L269 113" stroke="#d6a58f" stroke-width="1.5" stroke-linecap="round"/>
+      <g class="blink">
+        <path d="M302 98Q309 93 315 98" stroke="#284b64" stroke-width="2.6" stroke-linecap="round"/>
+        <ellipse cx="310" cy="102" rx="3.9" ry="6" fill="#2b6684"/>
+        <ellipse cx="311" cy="100" rx="1.3" ry="2" fill="#fff"/>
+      </g>
+      <path d="M317 107L321 111L317 112" stroke="#d9a48a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="298" cy="115" rx="7" ry="3.2" fill="#e5a49f" opacity=".55"/>
+      <path d="M309 120Q314 123 318 119" stroke="#aa7c79" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M277 117Q277 133 287 143L274 140Q262 128 267 114" fill="#315774"/>
+      <path d="M278 122Q280 132 283 134" stroke="#638aa0" stroke-width="2" stroke-linecap="round"/>
+      <path d="M286 137Q300 143 309 137" stroke="#b6dae0" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="389" cy="182" r="5" fill="#f2d59f" stroke="#8f9789" stroke-width="2"/>
+    </g>
+  </g>
+  <rect class="border" x="1" y="1" width="1098" height="438" rx="26" stroke-width="2"/>
+</svg>

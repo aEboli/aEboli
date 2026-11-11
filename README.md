@@ -1,70 +1,28 @@
-<div align="center">
-
-<a href="https://github.com/aEboli">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:7F5AF0,50:2CB67D,100:00C2FF&text=aEboli&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=50" alt="aEboli" />
-</a>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2600&pause=900&color=7F5AF0&center=true&vCenter=true&width=760&lines=GPT-Image2-Studio;ChatSheet" alt="GPT-Image2-Studio 和 ChatSheet" />
-
-<p>
-  <a href="https://github.com/aEboli/GPT-Image2-Studio">
-    <img src="https://img.shields.io/badge/FEATURED-GPT--Image2--Studio-7F5AF0?style=for-the-badge&logo=github&logoColor=white" alt="GPT-Image2-Studio" />
-  </a>
-  <a href="https://github.com/aEboli/ChatSheet">
-    <img src="https://img.shields.io/badge/FEATURED-ChatSheet-2CB67D?style=for-the-badge&logo=github&logoColor=white" alt="ChatSheet" />
-  </a>
-</p>
-
-</div>
-
-<h2 align="center">🎨 GPT-Image2-Studio</h2>
-
 <p align="center">
-  本地优先的 AI 图像生成与视觉生产工作台，覆盖提示词生图、参考图分析、图像编辑、电商组图、肖像、文章插图和 PPT 工作流。
+  <img src="./assets/whale-cyclist.svg" width="100%" alt="aEboli · AI 图像、办公自动化与桌面工具；鲸鱼娘骑着自行车，沿海岸向前。" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/aEboli/GPT-Image2-Studio">
-    <img width="720" src="https://opengraph.githubassets.com/1/aEboli/GPT-Image2-Studio" alt="GPT-Image2-Studio GitHub repository preview" />
-  </a>
-</p>
+## 在做的项目
 
-<p align="center">
-  <img src="https://img.shields.io/github/last-commit/aEboli/GPT-Image2-Studio?style=flat-square&color=7F5AF0&label=Updated" alt="GPT-Image2-Studio last commit" />
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/aEboli/GPT-Image2-Studio">GPT-Image2-Studio ↗</a></h3>
+      <p>本地优先的 AI 图像工作台。从提示词、参考图到图像编辑与电商组图，让创作连成完整流程。</p>
+      <p><a href="https://github.com/aEboli/GPT-Image2-Studio">查看项目</a> · <a href="https://github.com/aEboli/GPT-Image2-Studio/releases">下载桌面版</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/aEboli/Office-helper">Office-helper ↗</a></h3>
+      <p>Excel、Word 与 WPS 侧边栏里的 AI 助手。用自然语言处理表格、编辑文档，并查看执行结果。</p>
+      <p><a href="https://github.com/aEboli/Office-helper">查看项目</a> · <a href="https://github.com/aEboli/Office-helper/releases">下载加载项</a></p>
+    </td>
+  </tr>
+</table>
 
-<hr />
+## 其他作品
 
-<h2 align="center">📊 ChatSheet</h2>
-
-<p align="center">
-  运行在 Windows 桌面版 Microsoft Excel 中的本地对话式 AI 侧边栏：先理解工作簿和当前选区，再在确认后执行受限的表格操作。
-</p>
-
-<p align="center">
-  <a href="https://github.com/aEboli/ChatSheet">
-    <img width="720" src="https://opengraph.githubassets.com/1/aEboli/ChatSheet" alt="ChatSheet GitHub repository preview" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C%23-.NET%20Framework%204.8-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C# and .NET Framework 4.8" />
-  <img src="https://img.shields.io/github/last-commit/aEboli/ChatSheet?style=flat-square&color=2CB67D&label=Updated" alt="ChatSheet last commit" />
-</p>
-
-<div align="center">
-
-<a href="https://github.com/aEboli/GPT-Image2-Studio">
-  <img src="https://img.shields.io/badge/OPEN-GPT--Image2--Studio-7F5AF0?style=for-the-badge&logo=github&logoColor=white" alt="Open GPT-Image2-Studio" />
-</a>
-<a href="https://github.com/aEboli/ChatSheet">
-  <img src="https://img.shields.io/badge/OPEN-ChatSheet-2CB67D?style=for-the-badge&logo=github&logoColor=white" alt="Open ChatSheet" />
-</a>
-
-</div>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2FF,50:2CB67D,100:7F5AF0&height=90&section=footer" alt="页脚渐变波浪" />
-
-</div>
+| 项目 | 用途 |
+| :--- | :--- |
+| [chrome-profile-browser](https://github.com/aEboli/chrome-profile-browser) | 本地 Chromium 多配置与代理节点管理 |
+| [dsh-image-studio](https://github.com/aEboli/dsh-image-studio) | 多图并发生成、提示词模板与批次管理 |
+| [zhongguose-palette](https://github.com/aEboli/zhongguose-palette) | 从中国传统色生成界面配色 |

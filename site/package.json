@@ -1,0 +1,14 @@
+{
+  "name": "whale-cyclist-three",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/daylight.test.mjs",
+    "build": "node scripts/build.mjs",
+    "build:pages": "node scripts/build.mjs ../docs"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#d8ecf6">
+<meta name="description" content="一个好奇心很重、容易被可爱事物打动的人。喜欢天马行空，也喜欢把小小的灵感变成现实。">
+<title>aEboli · 鲸鱼娘的海边骑行</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="banner">
+  <div id="scene" role="img" aria-label="穿着鲸鱼外套的二次元女孩在海边骑自行车。拖动可旋转视角。"></div>
+  <div class="copy">
+    <h1>aEboli<span>.</span></h1>
+    <p>一个好奇心很重、<wbr>容易被可爱事物打动的人。<br>喜欢天马行空，<wbr>也喜欢把小小的灵感变成现实。</p>
+  </div>
+  <div class="clock"><span id="time-icon" aria-hidden="true">☀</span><span>北京时间</span><time id="clock">--:--</time></div>
+  <div class="controls">
+    <span class="hint">拖动旋转</span>
+    <button id="pause" type="button" aria-label="暂停骑行动画" aria-pressed="false">暂停</button>
+    <button id="reset" type="button" aria-label="复位视角">复位</button>
+  </div>
+  <div id="loading" role="status">正在加载…</div>
+  <div id="error" role="alert" hidden>场景未能加载，请刷新重试。</div>
+  <noscript>请启用 JavaScript 以查看 3D 场景。</noscript>
+</main>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+<script type="module" src="scene.js"></script>
+</body>
+</html>

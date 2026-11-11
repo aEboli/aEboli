@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="./assets/whale-cyclist.svg" width="100%" alt="aEboli · AI 图像、办公自动化与桌面工具；鲸鱼娘骑着自行车，沿海岸向前。" />
+  <a href="https://aeboli.github.io/aEboli/">
+    <img src="./assets/whale-cyclist-3d.gif" width="100%" alt="aEboli · 一个好奇心很重、容易被可爱事物打动的人。点击鲸鱼娘骑行动画，进入随北京时间变化的 3D 主页。" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://aeboli.github.io/aEboli/">进入 3D 主页 ↗</a>
 </p>
 
 ## 在做的项目

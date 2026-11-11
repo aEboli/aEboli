@@ -1,0 +1,59 @@
+{
+  "site_url": "https://aeboli.github.io/aEboli/",
+  "profile_url": "https://github.com/aEboli",
+  "verified_at": "2026-11-11T11:58:45.561076+00:00",
+  "real_clock": {
+    "state": {
+      "hour": 19.98222222222222,
+      "phase": "night",
+      "top": "#101c38",
+      "bottom": "#344466",
+      "text": "#e6f2ff",
+      "muted": "#aebed5",
+      "accent": "#9ccde1",
+      "sky": "#9db8ec",
+      "ground": "#687b99",
+      "sun": "#b9d4ff",
+      "sea": "#243d60",
+      "road": "#7888a0",
+      "key": 1.45,
+      "ambient": 0.38,
+      "environment": 0.13,
+      "stars": 1,
+      "lamp": 1,
+      "day": 0,
+      "timeZone": "Asia/Shanghai",
+      "mode": "live",
+      "clock": "19:58"
+    },
+    "expected_beijing": "2026-11-11T19:58:56.884817+08:00",
+    "device_timezone": "America/Los_Angeles"
+  },
+  "pause_preserves_live_clock": true,
+  "verified_assets": {
+    "index.html": {
+      "status": 200,
+      "sha256": "f5a6c34b74e850cb80b3c9f114e333825a5bfaa63a97e98b725563d9f0363ba9"
+    },
+    "scene.js": {
+      "status": 200,
+      "sha256": "782165e4dcf3d90e10525e5167fbb4a0642c046ef5f5dfda3dfc4b263038cc2c"
+    },
+    "daylight.js": {
+      "status": 200,
+      "sha256": "ae6488e7d0fd88b57c825aba6e6f838c48c0d174423713d0d9f1d654f65ff58e"
+    },
+    "reference.vrm": {
+      "status": 200,
+      "sha256": "12c2b97e95e700783a6a550dc0eee2d7880aeedccef9ae67bc4c5a2f0f2631a2"
+    }
+  },
+  "console_errors": [],
+  "failed_requests": [],
+  "github_profile": {
+    "entry_url": "https://aeboli.github.io/aEboli/",
+    "hero_src": "/aEboli/aEboli/raw/main/assets/whale-cyclist-3d.gif",
+    "natural_width": 1100,
+    "natural_height": 650
+  }
+}
